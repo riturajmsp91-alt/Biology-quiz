@@ -1,0 +1,22 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: system-ui, -apple-system, "Noto Sans Devanagari", sans-serif; background: #f3f6fb; color: #172033; }
+header { position: sticky; top: 0; z-index: 10; background: #fff; border-bottom: 1px solid #ddd; padding: 12px 14px; }
+h1 { font-size: 20px; margin: 0 0 6px; }
+#progress { font-size: 14px; color: #526070; }
+.container { max-width: 720px; margin: auto; padding: 14px 12px 90px; }
+.card { background: #fff; border-radius: 16px; padding: 18px; margin: 12px 0; box-shadow: 0 2px 10px #00000012; }
+.qno { font-size: 13px; color: #64748b; font-weight: 700; margin-bottom: 8px; }
+.question { font-size: 18px; font-weight: 700; line-height: 1.55; margin-bottom: 14px; }
+.option { width: 100%; text-align: left; border: 2px solid #e2e8f0; background: #fff; border-radius: 12px; padding: 12px; margin: 8px 0; font-size: 16px; line-height: 1.4; cursor: pointer; }
+.option.correct { background: #dcfce7; border-color: #22c55e; color: #166534; }
+.option.wrong { background: #fee2e2; border-color: #ef4444; color: #991b1b; }
+.option.disabled { cursor: default; }
+.explain { display: none; margin-top: 10px; padding: 10px; border-radius: 10px; background: #f8fafc; font-size: 14px; }
+.nav { display: flex; gap: 10px; justify-content: space-between; margin-top: 14px; }
+button.navbtn, .finish { border: 0; border-radius: 12px; padding: 12px 16px; font-weight: 700; font-size: 15px; }
+.navbtn { background: #e2e8f0; }
+.finish { background: #111827; color: white; width: 100%; margin-top: 10px; }
+#result { display: none; text-align: center; }
+.score { font-size: 36px; font-weight: 800; }
+.small { font-size: 13px; color: #64748b; }
+.home { background: #eef2ff; border: 1px solid #c7d2fe; padding: 12px; border-radius: 12px; margin-bottom: 12px; }
